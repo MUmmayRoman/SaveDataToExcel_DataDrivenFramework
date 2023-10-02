@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T11:04:41 EDT" name="Default suite" finished-at="2023-07-21T11:04:52 EDT" duration-ms="11104">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T11:04:41 EDT" name="Default test" finished-at="2023-07-21T11:04:52 EDT" duration-ms="11104">
+      <class name="dataDriven.SaveTestNGResultToExcel">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:dataDriven.SaveTestNGResultToExcel@2fb3536e]" started-at="2023-07-21T11:04:41 EDT" name="suiteSetUp" finished-at="2023-07-21T11:04:45 EDT" duration-ms="3206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method signature="LaunchWebsite()[pri:1, instance:dataDriven.SaveTestNGResultToExcel@2fb3536e]" started-at="2023-07-21T11:04:45 EDT" name="LaunchWebsite" description="Opens the TestNG Demo Website for Login Test" finished-at="2023-07-21T11:04:46 EDT" duration-ms="1584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite -->
+        <test-method signature="FillLoginDetails()[pri:2, instance:dataDriven.SaveTestNGResultToExcel@2fb3536e]" started-at="2023-07-21T11:04:46 EDT" name="FillLoginDetails" description="Fill the Login Details" finished-at="2023-07-21T11:04:48 EDT" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails -->
+        <test-method signature="DoLogin()[pri:3, instance:dataDriven.SaveTestNGResultToExcel@2fb3536e]" started-at="2023-07-21T11:04:48 EDT" name="DoLogin" description="Perform Login" finished-at="2023-07-21T11:04:50 EDT" duration-ms="1882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="LogOut()[pri:4, instance:dataDriven.SaveTestNGResultToExcel@2fb3536e]" started-at="2023-07-21T11:04:50 EDT" name="LogOut" description="Perform Logout" finished-at="2023-07-21T11:04:52 EDT" duration-ms="1363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:dataDriven.SaveTestNGResultToExcel@2fb3536e]" started-at="2023-07-21T11:04:52 EDT" name="suiteTearDown" finished-at="2023-07-21T11:04:52 EDT" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- dataDriven.SaveTestNGResultToExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
